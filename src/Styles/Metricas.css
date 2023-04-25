@@ -1,0 +1,23 @@
+.selectors{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cuadroMet{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    margin: 5%;
+}
+
+.title{
+    position: relative;
+    float: left;
+    width: 100%;
+    align-items: center;
+}

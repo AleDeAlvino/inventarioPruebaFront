@@ -1,0 +1,78 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background-color: #F7E5E1;
+  font-family: 'Trebuchet MS';
+}
+
+input {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.contenedorAgregar{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-image: url('../static_images/fondocolor.png');
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.Selector{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    float: left;
+    /* background-color: aqua; */
+    display:block;
+    overflow:auto;
+}
+
+.selectores{
+    position: relative;
+    float: left;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.inp_sel{
+    width: 30%;
+}
+
+.btn_bus{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.message_table{
+    width: 100%;
+    height: 15%;
+    /* background-color: blueviolet; */
+    display: flex; 
+    justify-content: center;
+    align-items: space-around;
+    margin-top: 2%;
+}
+
+.txt_eje{
+    position: relative;
+    float: left;
+}
+
+.btn_agr{
+    position: relative;
+    width: 10%;
+    height: 45%;
+    margin-left: 2%;
+}
